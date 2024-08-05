@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trafalgar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="relative">
+    <!-- scroll up to top -->
+    <div
+      class="top bottom-2.5 right-2.5 fixed text-3xl z-50 cursor-pointer scale-0 transition-all duration-300 ease-in"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- header -->
+    <div class="header w-full my-5 relative">
+      <div class="con relative sm:w-full flex items-center justify-between">
+        <div class="logo flex gap-3 items-center">
+          <div
+            class="item w-6 h-6 rounded-full bg-black p-5 text-center text-white flex items-center justify-center"
+          >
+            <p class="text-2xl font-bold">T</p>
+          </div>
+          <p class="font-bold text-2xl">Trafalgar</p>
+        </div>
+        <div class="links flex justifty-center items-center">
+          <div class="toggle md:hidden">
+            <i class="fa-solid fa-bars text-2xl text-center"></i>
+          </div>
+          <div class="link">
+            <ul class="md:flex md:gap-4">
+              <li>
+                <a
+                  href="#"
+                  class="act text-xl font-bold transition-all duration-300 linear relative before:absolute before:content[''] before:w-3 before:h-0.5 before:bg-black before:bottom-0 hover:before:w-full before:transition-all before:duration-300 ease-linear"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-slate-400 text-xl font-bold hover:text-black transition-all duration-300 relative before:absolute before:content[''] before:w-0 before:h-0.5 before:bg-black before:bottom-0 hover:before:w-full before:transition-all before:duration-300 ease-linear"
+                  >Find a doctor</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-slate-400 text-xl font-bold hover:text-black transition-all duration-300 relative before:absolute before:content[''] before:w-0 before:h-0.5 before:bg-black before:bottom-0 hover:before:w-full before:transition-all before:duration-300 ease-linear"
+                  >Apps</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-slate-400 text-xl font-bold hover:text-black transition-all duration-300 relative before:absolute before:content[''] before:w-0 before:h-0.5 before:bg-black before:bottom-0 hover:before:w-full before:transition-all before:duration-300 ease-linear"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-slate-400 text-xl font-bold hover:text-black transition-all duration-300 relative before:absolute before:content[''] before:w-0 before:h-0.5 before:bg-black before:bottom-0 hover:before:w-full before:transition-all before:duration-300 ease-linear"
+                  >About us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- landing -->
+    <div class="landing relative w-full my-20">
+      <div class="con flex justify-between items-center">
+        <div class="text">
+          <h1 class="text-black font-bold text-5xl pb-2">
+            Virtual healthcare for you
+          </h1>
+          <p class="w-8/12 py-5 text-2xl">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <button class="text-white px-5 py-3 font-bold text-xl rounded-full">
+            Consult today
+          </button>
+        </div>
+        <div class="img">
+          <img src="imgs/landing.png" alt="" class="w-full h-96" />
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="services relative w-full my-36">
+      <img
+        src="imgs/services.png"
+        alt=""
+        class="absolute opacity-60 -z-50 top-1/2 -translate-y-1/2"
+      />
+      <h1
+        class="text-black text-center font-bold text-5xl relative before:absolute before:w-20 before:bg-black before:content[''] before:h-0.5 before:left-2/4 before:top-16 before:-translate-x-1/2"
+      >
+        Our services
+      </h1>
+      <p class="text-xl text-center px-32 py-8">
+        We provide to you the best choiches for you. Adjust it to your health
+        needs and make sure your undergo treatment with our highly qualified
+        doctors you can consult with us which type of service is suitable for
+        your health
+      </p>
+      <div class="con my-8">
+        <div class="cards grid grid-cols-3 gap-5 w-full items-center">
+          <div
+            class="card border-2 border-solid rounded-3xl p-5 h-80 flex flex-col justify-center items-left gap-3"
+          >
+            <div class="img">
+              <img src="imgs/1.png" alt="" class="w-24 h-24 p-2.5" />
+            </div>
+            <div class="text">
+              <h4 class="p-2.5 font-bold text-2xl">Search doctor</h4>
+              <p class="px-2.5 text-xl">
+                Choose your doctor from thousands of specialist, general, and
+                trusted hospitals
+              </p>
+            </div>
+          </div>
+          <div
+            class="card border-2 border-solid rounded-3xl p-5 h-80 flex flex-col justify-center items-left gap-3"
+          >
+            <div class="img">
+              <img src="imgs/2.png" alt="" class="w-24 h-24 p-2.5" />
+            </div>
+            <div class="text">
+              <h4 class="p-2.5 font-bold text-2xl">Online pharmacy</h4>
+              <p class="px-2.5 text-xl">
+                Buy your medicines with our mobile application with a simple
+                delivery system
+              </p>
+            </div>
+          </div>
+          <div
+            class="card border-2 border-solid rounded-3xl p-5 h-80 flex flex-col justify-center items-left gap-3"
+          >
+            <div class="img">
+              <img src="imgs/3.png" alt="" class="w-24 h-24 p-2.5" />
+            </div>
+            <div class="text">
+              <h4 class="p-2.5 font-bold text-2xl">Consultation</h4>
+              <p class="px-2.5 text-xl">
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
+            </div>
+          </div>
+          <div
+            class="card border-2 border-solid rounded-3xl p-5 h-80 flex flex-col justify-center items-left gap-3"
+          >
+            <div class="img">
+              <img src="imgs/4.png" alt="" class="w-24 h-24 p-2.5" />
+            </div>
+            <div class="text">
+              <h4 class="p-2.5 font-bold text-2xl">Details info</h4>
+              <p class="px-2.5 text-xl">
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
+            </div>
+          </div>
+          <div
+            class="card border-2 border-solid rounded-3xl p-5 h-80 flex flex-col justify-center items-left gap-3"
+          >
+            <div class="img w-1/2">
+              <img src="imgs/5.png" alt="" class="w-24 h-24 p-2.5" />
+            </div>
+            <div class="text">
+              <h4 class="p-2.5 font-bold text-2xl">Emergency care</h4>
+              <p class="px-2.5 text-xl">
+                You can get 24/7 urgent care for yourself or your children and
+                your lovely family
+              </p>
+            </div>
+          </div>
+          <div
+            class="card border-2 border-solid rounded-3xl p-5 h-80 flex flex-col justify-center items-left gap-3"
+          >
+            <div class="img w-1/2">
+              <img src="imgs/6.png" alt="" class="w-24 h-24 p-2.5" />
+            </div>
+            <div class="text">
+              <h4 class="p-2.5 font-bold text-2xl">Tracking</h4>
+              <p class="px-2.5 text-xl">
+                Track and save your medical history and health data for yourself
+                or your children and your lovely family
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button text-center mt-14">
+        <button
+          class="border-2 border-solid px-10 py-2 rounded-full text-center transition-all ease-in duration-300 font-bold"
+        >
+          Learn More
+        </button>
+      </div>
+    </div>
+    <!-- Article -->
+    <div class="article relative my-20 w-full">
+      <img
+        src="imgs/article.png"
+        alt=""
+        class="absolute opacity-60 -z-50 right-0 top-1/2 -translate-y-1/2"
+      />
+      <h1
+        class="text-black text-center font-bold text-5xl relative before:absolute before:w-20 before:bg-black before:content[''] before:h-0.5 before:left-2/4 before:top-16 before:-translate-x-1/2"
+      >
+        Check out our latest article
+      </h1>
+      <div class="con grid grid-cols-3 mt-36 mb-16 gap-5">
+        <div class="card flex flex-col shadow-2xl rounded-xl">
+          <div class="img w-full">
+            <img
+              src="imgs/article1.png"
+              alt=""
+              class="rounded-t-3xl object-contain w-full"
+            />
+          </div>
+          <div class="txt flex flex-col justify-center">
+            <h1 class="font-bold text-2xl p-5">Disease detection, check up</h1>
+            <p class="px-5 text-lg">
+              In this case, the role of the health laboratory is very important
+              to do a disease detection...
+            </p>
+            <div class="icon flex items-center gap-2 p-5">
+              <p class="font-bold">Read More</p>
+              <i class="fa-solid fa-arrow-right text-xl"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card flex flex-col shadow-2xl rounded-xl">
+          <div class="img w-full">
+            <img src="imgs/article2.png" alt="" class="rounded-t-3xl w-full" />
+          </div>
+          <div class="txt flex flex-col justify-center">
+            <h1 class="font-bold text-2xl p-5">
+              Herbal medicines that are safe for consumption
+            </h1>
+            <p class="px-5 text-lg">
+              Herbal medicine is very widely used at this time because of its
+              very good your health...
+            </p>
+            <div class="icon flex items-center gap-2 p-5">
+              <p class="font-bold">Read More</p>
+              <i class="fa-solid fa-arrow-right text-xl"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card flex flex-col shadow-2xl rounded-xl">
+          <div class="img w-full">
+            <img
+              src="imgs/article3.png"
+              alt=""
+              class="rounded-t-3xl object-contain w-full"
+            />
+          </div>
+          <div class="txt flex flex-col justify-center">
+            <h1 class="font-bold text-2xl p-5">
+              Natural care for healthy facial skin
+            </h1>
+            <p class="px-5 text-lg">
+              A healthy lifestyle should start from now and also for your skin
+              health. There are some....
+            </p>
+            <div class="icon flex items-center gap-2 p-5">
+              <p class="font-bold">Read More</p>
+              <i class="fa-solid fa-arrow-right text-xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button text-center">
+        <button
+          class="border-2 border-solid px-10 py-2 rounded-full text-center transition-all ease-in duration-300 font-bold"
+        >
+          View all
+        </button>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer relative mt-20 w-full">
+      <div class="con p-20 pl-8 pr-5 flex justify-between gap-24">
+        <div class="leftInfo w-1/3">
+          <div class="logo flex items-center gap-4">
+            <div
+              class="item bg-white w-6 h-6 rounded-full bg-black p-5 text-center flex items-center justify-center"
+            >
+              <p class="text-2xl font-bold">T</p>
+            </div>
+            <p class="font-bold text-2xl text-white">Trafalgar</p>
+          </div>
+          <div class="details py-5">
+            <p class="text-white">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+          </div>
+          <div class="copy">
+            <p class="text-white w-full text-lg">
+              &copy; Trafalgar 2020, All rights reserved
+            </p>
+          </div>
+        </div>
+        <div class="rightInfo flex flex-row gap-24">
+          <div class="company">
+            <h1 class="text-white font-bold pb-5">Company</h1>
+            <ul>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">About</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Testimonials</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Find doctor</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Apps</a>
+              </li>
+            </ul>
+          </div>
+          <div class="region">
+            <h1 class="text-white font-bold pb-5">Region</h1>
+            <ul>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Indonesia</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Singapore</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Hongkong</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Canada</a>
+              </li>
+            </ul>
+          </div>
+          <div class="help">
+            <h1 class="text-white font-bold pb-5">Help</h1>
+            <ul>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Help center</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Contact</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">Instructions</a>
+              </li>
+              <li class="pb-3">
+                <a href="" class="text-white font-bold">How works</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
